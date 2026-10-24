@@ -4,10 +4,11 @@ Last updated: September 2026
 ARIM Passport Photo Maker ("the Application") is designed with absolute privacy in mind. We believe your personal images and biometric information belong solely to you.
 
 1. Information Handling & Local Processing
-- The Application operates 100% offline on your local Windows device.
 - All image loading, background matting, facial landmark analysis, cropping, and rendering occur strictly within your computer's local volatile memory (RAM).
 - The Application does not collect, record, transmit, or share your photos, facial biometric data, or identity documents with any external server, cloud platform, or third party.
-
+- The Application operates 100% offline on your local Windows device.
+- Network Usage & Data Privacy-
+                    ARIM Passport Photo Maker operates locally on your machine. We do not collect, transmit, or store any personal data, facial biometrics, or photographic images.The application makes an anonymous, non-tracking HTTP request solely to check world server time (via Microsoft server edge headers) to manage the daily free sheet quota reset. No identifying device information, IP logging, or user telemetry is collected or stored during this check.
 2. Temporary Data & Storage
 - The Application writes zero temporary scratch files to your disk.
 - Processed photos are only saved to persistent storage when you explicitly click "Save" and choose your desired folder.
